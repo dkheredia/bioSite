@@ -1,0 +1,121 @@
+/* Set font size to 16px on default browser settings */
+html {font-size: 16px;} 
+/* major thirds type scale*/
+h1 {font-size: 3.052em;}
+h2 {font-size: 2.441em;}
+h3 {font-size: 1.953em;}
+h4 {font-size: 1.563em;}
+h5 {font-size: 1.25em;}
+/* Padding and border are included in width and height calculations */
+* {
+    box-sizing: border-box;
+  }
+/* Color, font style, and spacing between element content and border*/
+body {
+    background-color: #A4ffde;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+/*Color, font styling, sizing, and height for headings and paragraphs*/
+h1 {
+    color: black;
+    font-weight: 700;
+    font-style: normal;
+}
+h2 {
+    color: goldenrod;
+    font-weight: 500;
+    font-style: normal;
+}
+h5 {
+    color: black;
+    font-weight: 500;
+    font-style: normal;
+}
+p {    
+    color: black;
+    font-weight: normal;
+    line-height: 1.4em;
+}
+/*Header with image, fonts and colors*/
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #dea4ff;
+}
+.header h1 {
+    font-family: cursive;
+    font-size: 4em;
+    font-weight: 700;
+}
+.header img {
+    float: left;
+    width: 140px;
+}
+/*Navigation bar color*/
+.nav {
+    overflow: hidden;
+    background-color: lightgrey;
+}
+/* Navigation link color, alignment, location*/
+.nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Navigation link color on hover*/
+.nav a:hover{
+    background-color: #ddd;
+    color: blue;
+}
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+img.medium {
+    width: 200px;
+    height: 150px;
+}
+img.small {
+    width: 155px;
+    height: 150px;
+}
+/* Image side by side */
+.sidebyside {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+/* Color, spacing btw element content and boarders for info details */
+.info {
+    background-color: #ffdea4;
+    padding: 20px;
+    margin-top: 20px;
+  }
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* Bottom Navigation link color*/
+.bottomnav a {
+    color: blue;
+}
+  /* Footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: lightgray;
+    margin-top: 20px;
+  }
