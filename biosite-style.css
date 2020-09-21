@@ -24,8 +24,8 @@ h1 {
 }
 h2 {
     color: goldenrod;
-    font-weight: 500;
     font-style: normal;
+    font-family: 'Playfair Display', serif;
 }
 h5 {
     color: black;
@@ -42,20 +42,24 @@ p {
     padding: 20px;
     text-align: center;
     background-color: #dea4ff;
+    box-shadow: 0px 0px 10px #ca89f0;
 }
 .header h1 {
-    font-family: cursive;
+    font-family: 'Grandstander', cursive;
     font-size: 4em;
     font-weight: 700;
+    text-shadow: 5px 5px 7px lightgray;
 }
 .header img {
     float: left;
-    width: 140px;
+    width: 120px;
+    box-shadow: 5px 5px 5px #777777;
 }
 /*Navigation bar color*/
 .nav {
     overflow: hidden;
     background-color: lightgrey;
+    box-shadow: 0px 0px 10px #ca89f0;
 }
 /* Navigation link color, alignment, location*/
 .nav a {
@@ -84,10 +88,12 @@ p {
 img.medium {
     width: 200px;
     height: 150px;
+    box-shadow: 5px 5px 5px 5px #937e4a;
 }
 img.small {
     width: 155px;
     height: 150px;
+    box-shadow: 5px 5px 5px 5px #937e4a;
 }
 /* Image side by side */
 .sidebyside {
@@ -100,6 +106,7 @@ img.small {
     background-color: #ffdea4;
     padding: 20px;
     margin-top: 20px;
+    box-shadow: 5px 5px 5px 2px #937e4a;
   }
 /* Clear floats after the columns */
 .row:after {
@@ -117,4 +124,6 @@ img.small {
     text-align: center;
     background: lightgray;
     margin-top: 20px;
+    text-shadow: 4px 4px 7px grey;
+    box-shadow: 8px 8px 8px #777777;
   }
