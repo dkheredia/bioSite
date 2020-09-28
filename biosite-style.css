@@ -127,3 +127,17 @@ img.small {
     text-shadow: 4px 4px 7px grey;
     box-shadow: 8px 8px 8px #777777;
   }
+  #image-gallery {
+      margin-top: 10%;
+      display: grid;
+      grid-template-columns: auto auto auto;
+  }
+  figure {
+    text-align: center;
+}
+figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: .50em;
+    font-weight: 400;
+}
