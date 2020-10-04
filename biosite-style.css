@@ -1,21 +1,23 @@
 /* Set font size to 16px on default browser settings */
 html {font-size: 16px;} 
+
 /* major thirds type scale*/
 h1 {font-size: 3.052em;}
 h2 {font-size: 2.441em;}
 h3 {font-size: 1.953em;}
 h4 {font-size: 1.563em;}
 h5 {font-size: 1.25em;}
+
 /* Padding and border are included in width and height calculations */
-* {
-    box-sizing: border-box;
-  }
+* {box-sizing: border-box;}
+
 /* Color, font style, and spacing between element content and border*/
 body {
     background-color: #A4ffde;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
 }
+
 /*Color, font styling, sizing, and height for headings and paragraphs*/
 h1 {
     color: black;
@@ -26,6 +28,7 @@ h2 {
     color: goldenrod;
     font-style: normal;
     font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 h5 {
     color: black;
@@ -37,75 +40,94 @@ p {
     font-weight: normal;
     line-height: 1.4em;
 }
-/*Header with image, fonts and colors*/
-.header {
-    padding: 20px;
-    text-align: center;
+
+/*New Header with image, fonts and colors*/
+header {
     background-color: #dea4ff;
     box-shadow: 0px 0px 10px #ca89f0;
+    padding: 20px;
+    text-align: center;
 }
-.header h1 {
+
+header h1 {
     font-family: 'Grandstander', cursive;
-    font-size: 4em;
+    font-size: 5.95em;
     font-weight: 700;
     text-shadow: 5px 5px 7px lightgray;
 }
-.header img {
-    float: left;
-    width: 120px;
-    box-shadow: 5px 5px 5px #777777;
+
+.header-gallery {
+    display: inline-block;
 }
-/*Navigation bar color*/
-.nav {
+
+#gallery-item1 {
+    float: left;
+}
+
+#gallery-title {
+    float: left
+}
+
+#gallery-item2 {
+    float: right;
+}
+
+/*New Navigation bar color link color, alignment, location*/
+#navbar {
     overflow: hidden;
-    background-color: lightgrey;
+    background-color: lightgray;
     box-shadow: 0px 0px 10px #ca89f0;
 }
-/* Navigation link color, alignment, location*/
-.nav a {
+
+#navbar a {
     float: left;
     display: block;
-    color: blue;
+    font-family: 'Grandstander', cursive;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-/* Navigation link color on hover*/
-.nav a:hover{
-    background-color: #ddd;
+
+#navbar a:hover {
+    background-color: #A4ffde;
 }
+
 /* Left column */
 .leftcolumn {   
     float: left;
     width: 75%;
+    display: grid;
   }
 /* Right column */
 .rightcolumn {
-    float: left;
+    float: right;
     width: 25%;
     padding-left: 20px;
+    display: grid;
 }
 img.medium {
-    width: 200px;
-    height: 150px;
-    box-shadow: 5px 5px 5px 5px #937e4a;
+    width: 350px;
+    height: 275px;
+    border: 1px solid #937e4a;
+    border-radius: 15px;
 }
 img.small {
-    width: 155px;
-    height: 150px;
-    box-shadow: 5px 5px 5px 5px #937e4a;
+    width: 250px;
+    height: 300px;
+    border: 1px solid #937e4a;
+    border-radius: 15px;
+    padding: 5px;
 }
 /* Image side by side */
 .sidebyside {
     float: left;
     width: 33.33%;
-    padding: 5px;
 }
 /* Color, spacing btw element content and boarders for info details */
 .info {
     background-color: #ffdea4;
     padding: 20px;
-    margin-top: 20px;
     box-shadow: 5px 5px 5px 2px #937e4a;
   }
 /* Clear floats after the columns */
@@ -117,6 +139,7 @@ img.small {
 /* Bottom Navigation link color*/
 .bottomnav a {
     color: blue;
+    float: right;
 }
   /* Footer */
 .footer {
@@ -140,4 +163,10 @@ figcaption {
     font-style: italic;
     font-size: .50em;
     font-weight: 400;
+}
+.sidebyside img {
+    border: 1px solid #937e4a;
+    border-radius: 15px;
+    padding: 5px;
+
 }
