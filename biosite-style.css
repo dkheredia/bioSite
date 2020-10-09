@@ -15,7 +15,6 @@ h5 {font-size: 1.25em;}
 body {
     background-color: #A4ffde;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
 }
 
 /*Color, font styling, sizing, and height for headings and paragraphs*/
@@ -24,8 +23,9 @@ h1 {
     font-weight: 700;
     font-style: normal;
 }
+
 h2 {
-    color: goldenrod;
+    color: black;
     font-style: normal;
     font-family: 'Playfair Display', serif;
     text-align: center;
@@ -41,41 +41,43 @@ p {
     line-height: 1.4em;
 }
 
-/*New Header with image, fonts and colors*/
+/*Color, font styling, sizing, and shadowing for header title and images*/
 header {
     background-color: #dea4ff;
     box-shadow: 0px 0px 10px #ca89f0;
-    padding: 20px;
     text-align: center;
 }
 
 header h1 {
-    font-family: 'Grandstander', cursive;
-    font-size: 5.95em;
-    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-size: 7em;
     text-shadow: 5px 5px 7px lightgray;
 }
 
 .header-gallery {
     display: inline-block;
+    width: 100%;
+    padding: 20px;
 }
 
-#gallery-item1 {
+#gallery-img1 {
     float: left;
+    padding: 14px 16px;
 }
 
 #gallery-title {
-    float: left
+    display: inline-block;
 }
 
-#gallery-item2 {
+#gallery-img2 {
     float: right;
+    padding: 14px 16px;
 }
 
-/*New Navigation bar color link color, alignment, location*/
+/*Navigation bar color, links, and alignment*/
 #navbar {
     overflow: hidden;
-    background-color: lightgray;
+    background-color: #e7c6fa;
     box-shadow: 0px 0px 10px #ca89f0;
 }
 
@@ -99,19 +101,23 @@ header h1 {
     width: 75%;
     display: grid;
   }
+
 /* Right column */
 .rightcolumn {
     float: right;
     width: 25%;
     padding-left: 20px;
     display: grid;
+    text-align: center;
 }
+
 img.medium {
-    width: 350px;
+    width: 300px;
     height: 275px;
     border: 1px solid #937e4a;
     border-radius: 15px;
 }
+
 img.small {
     width: 250px;
     height: 300px;
@@ -119,49 +125,51 @@ img.small {
     border-radius: 15px;
     padding: 5px;
 }
+
 /* Image side by side */
 .sidebyside {
-    float: left;
-    width: 33.33%;
+    display: inline-block;
+    width: 33.33;
 }
-/* Color, spacing btw element content and boarders for info details */
+
+/* Color, shadowing, spacing btw element content and borders for info details */
 .info {
     background-color: #ffdea4;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 5px 5px 5px 2px #937e4a;
   }
+
+/* Color, font styling, sizing, and shadowing for body images */
+figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: .75em;
+    font-weight: 400;
+}
+#party {
+    margin-bottom: 300px;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
   }
+
 /* Bottom Navigation link color*/
-.bottomnav a {
+#bottomnav {
     color: blue;
     float: right;
 }
+
   /* Footer */
-.footer {
+footer {
     padding: 10px;
     text-align: center;
     background: lightgray;
-    margin-top: 20px;
+    margin-top: 30px;
     text-shadow: 4px 4px 7px grey;
     box-shadow: 8px 8px 8px #777777;
   }
-  #image-gallery {
-      margin-top: 10%;
-      display: grid;
-      grid-template-columns: auto auto auto;
-  }
-  figure {
-    text-align: center;
-}
-figcaption {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    font-size: .50em;
-    font-weight: 400;
-}
-
